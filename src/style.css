@@ -31,11 +31,11 @@ h2 {
     font-size: x-large;
 }
 
-.recital-bg {
-    background-image: url("./assets/images/JSPose.JPG");
+.logo-bg {
+    background-image: url("./assets/images/JSLogo.JPG");
     background-repeat: no-repeat;
     background-size: 100vw;
-    min-height: 500px;
+    min-height: 100px;
     /* background-color: black; */
     /* background: rgba(76, 175, 80, 0.6); */
 }

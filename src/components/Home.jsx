@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <div className="flex flex-col bg-black">
-        <div className="mt-8 md:p-16 flex flex-col justify-center md:justify-start text-white recital-bg">
+        <div className="mt-8 md:p-16 flex flex-col justify-center md:justify-start text-white logo-bg">
           <h1 className="flex justify-center">Dj Divide</h1>
           {/* <h1 className="flex text-center justify-center">
             DJ Expert *insert type of music maybe?*
