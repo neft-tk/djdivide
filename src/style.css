@@ -8,6 +8,8 @@
 
 body {
     font-family: 'Playfair', serif;
+    color: white;
+    /* background: black; */
 }
 
 /* html {
@@ -30,7 +32,7 @@ h2 {
 }
 
 .recital-bg {
-    background-image: url("./assets/images/recital1.png");
+    background-image: url("./assets/images/JSPose.JPG");
     background-repeat: no-repeat;
     background-size: 100vw;
     min-height: 500px;
