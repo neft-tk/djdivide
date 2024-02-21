@@ -4,8 +4,7 @@ export default function Contact() {
   return (
     <>
       <h1>
-        Interested in taking you or your child's violin skills to the next
-        level?
+        amogus
       </h1>
       <h2>
         Contact me for a Consultation! Please send a 2 minute audio recording of
