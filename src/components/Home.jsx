@@ -1,14 +1,16 @@
 import React from "react";
+import JSLogo from "../assets/images/JSLogo.jpg";
 
 export default function Home() {
   return (
     <>
       <div className="flex flex-col bg-black">
-        <div className="mt-8 md:p-16 flex flex-col justify-center md:justify-start text-white logo-bg">
+        <div className="mt-8 md:p-16 flex flex-col justify-center items-center md:justify-start text-white">
           <h1 className="flex justify-center">Dj Divide</h1>
-          {/* <h1 className="flex text-center justify-center">
-            DJ Expert *insert type of music maybe?*
-          </h1> */}
+          <h2 className="flex text-center justify-center">
+            DJ Expert 
+          </h2>
+        <img src={JSLogo} alt="JSLogo" className="flex max-w-md justify-center"/>
         </div>
         <p>
           Hello world, my name is Jake and I am a DJ based out of Seattle, WA.
