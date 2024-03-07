@@ -70,6 +70,16 @@ export default function Nav({ handleLogout, isLoggedIn }) {
                 </h1>
               </a>
             </li>
+            <li>
+              <a href="#rates">
+                <h1
+                  className="block py-2 pl-3 pr-4 text-yellow-600 rounded md:bg-transparent md:text-yellow-600 md:p-0 dark:text-yellow-600"
+                  aria-current="page"
+                >
+                  Rates
+                </h1>
+              </a>
+            </li>
           </ul>
         </div>
       </div>

@@ -8,9 +8,9 @@ export default function Home() {
         <div className="mt-8 md:p-16 flex flex-col justify-center items-center md:justify-start text-white">
           <h1 className="flex justify-center">Dj Divide</h1>
           <h2 className="flex text-center justify-center">
-            DJ Expert 
+            DJ Expert
           </h2>
-        <img src={JSLogo1} alt="JSLogo" className="flex max-w-md justify-center"/>
+          <img src={JSLogo1} alt="JSLogo" className="flex max-w-md justify-center" />
         </div>
         <p>
           Hello world, my name is Jake and I am a DJ based out of Seattle, WA.
@@ -39,6 +39,29 @@ export default function Home() {
           </h2>
           <h2 className="mb-5">
             Email: djdivide1@gmail.com
+          </h2>
+          <h2 className="mb-5">Instagram: rickyrakehell</h2>
+        </div>
+
+        {/* Rates:  Thus far I have been charging $400 for a five hour set...but I hope to make much more as I get better as a DJ.
+
+I am tempted to offer a 10 hr set for $1200...but I think that most clients will not need that long of a span of time.
+
+Also, if the gig is at a pot shop (I mainly DJed at Kush Klub in Shoreline) I am open to getting compensated in store credit (weed lol).
+
+However I would strongly prefer the cash. */}
+
+
+
+        <div className="mx-4 flex flex-col items-center justify-center" id="rates">
+          <h1 className="mb-5">
+            Rates
+          </h1>
+          <h2 className="mb-5">
+          Thus far I have been charging $400 for a five hour set
+          </h2>
+          <h2 className="mb-5">
+          I am open to getting compensated in store credit, however I would strongly prefer cash
           </h2>
           <h2 className="mb-5">Instagram: rickyrakehell</h2>
         </div>
