@@ -8,10 +8,10 @@ export default function Nav({ handleLogout, isLoggedIn }) {
   }
 
   return (
-    <nav class="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+    <nav class="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-yellow-600">
       <div class="container flex flex-wrap items-center justify-between mx-none">
         <a href="/" class="flex items-center">
-          <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
+          <span className="self-center text-xl text-yellow-600 font-semibold whitespace-nowrap dark:text-yellow-600s">
             DJ Divide
           </span>
         </a>
@@ -23,7 +23,7 @@ export default function Nav({ handleLogout, isLoggedIn }) {
             <li>
               <a href="#home">
                 <h1
-                  className="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:text-black md:p-0 dark:text-white"
+                  className="block py-2 pl-3 pr-4 text-yellow-600 rounded md:bg-transparent md:text-yellow-600 md:p-0 dark:text-yellow-600"
                   aria-current="page"
                 >
                   Home
@@ -63,7 +63,7 @@ export default function Nav({ handleLogout, isLoggedIn }) {
             <li>
               <a href="#contact">
                 <h1
-                  className="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:text-black md:p-0 dark:text-white"
+                  className="block py-2 pl-3 pr-4 text-yellow-600 rounded md:bg-transparent md:text-yellow-600 md:p-0 dark:text-yellow-600"
                   aria-current="page"
                 >
                   Contact Me
