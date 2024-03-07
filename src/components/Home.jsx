@@ -1,5 +1,5 @@
 import React from "react";
-import JSLogo from "../assets/images/JSLogo.jpg";
+import JSLogo1 from "../assets/images/JSLogo1.jpg";
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
           <h2 className="flex text-center justify-center">
             DJ Expert 
           </h2>
-        <img src={JSLogo} alt="JSLogo" className="flex max-w-md justify-center"/>
+        <img src={JSLogo1} alt="JSLogo" className="flex max-w-md justify-center"/>
         </div>
         <p>
           Hello world, my name is Jake and I am a DJ based out of Seattle, WA.
