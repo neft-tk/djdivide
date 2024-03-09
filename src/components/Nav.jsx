@@ -8,7 +8,7 @@ export default function Nav({ handleLogout, isLoggedIn }) {
   }
 
   return (
-    <nav class="bg-white px-2 sm:px-4 py-2.5 dark:bg-black fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-yellow-600">
+    <nav class="bg-black px-2 sm:px-4 py-2.5 dark:bg-black fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-yellow-600">
       <div class="container flex flex-wrap items-center justify-between mx-none">
         <a href="/" class="flex items-center">
           <span className="self-center text-xl text-yellow-600 font-semibold whitespace-nowrap dark:text-yellow-600s">
