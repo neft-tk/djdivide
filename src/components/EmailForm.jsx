@@ -6,7 +6,7 @@ export default function emailForm() {
     e.preventDefault(); //This is important, i'm not sure why, but the email won't send without it
 
     emailjs
-      .sendForm("service_eoyq1w5", "template_tobhppj", e.target, "3eJvPeASOvZx1u5Cr")
+      .sendForm("service_ff8aq7h", "template_9nl80f7", e.target, "3eJvPeASOvZx1u5Cr")
       .then(
         (result) => {
           window.location.reload(); //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior)
@@ -18,7 +18,7 @@ export default function emailForm() {
   }
 
   return (
-    <form className="contact-form" onSubmit={sendEmail}>
+    <form className="contact-form flex flex-col" onSubmit={sendEmail}>
       <input type="hidden" name="contact_number" />
       <label>Name</label>
       <input type="text" name="from_name" />
@@ -27,7 +27,7 @@ export default function emailForm() {
       <label>Subject</label>
       <input type="text" name="subject" />
       <label>Message</label>
-      <textarea name="html_message" />
+      <textarea name="message" />
       <input type="submit" value="Send" />
     </form>
   );

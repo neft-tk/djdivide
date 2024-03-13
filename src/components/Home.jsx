@@ -1,5 +1,6 @@
 import React from "react";
 import JSLogo1 from "../assets/images/JSLogo1.jpg";
+import EmailForm from "./EmailForm";
 
 export default function Home() {
   return (
@@ -46,6 +47,7 @@ export default function Home() {
             Instagram: rickyrakehell
               </a>
             </h2>
+            <EmailForm/>
         </div>
 
         {/* Rates:  Thus far I have been charging $400 for a five hour set...but I hope to make much more as I get better as a DJ.
