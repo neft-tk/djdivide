@@ -7,9 +7,6 @@ export default function Home() {
       <div className="flex flex-col bg-black">
         <div className="mt-8 md:p-16 flex flex-col justify-center items-center md:justify-start text-white">
           <h1 className="flex justify-center">Dj Divide</h1>
-          <h2 className="flex text-center justify-center">
-            DJ Expert
-          </h2>
           <img src={JSLogo1} alt="JSLogo" className="flex max-w-md justify-center" />
         </div>
         <div className="my-8">
@@ -37,8 +34,9 @@ export default function Home() {
         </div>
 
         <div className="m-8 flex flex-col items-center justify-center" id="contact">
+          <h1>Contact Me</h1>
           <h2 className="mb-5">
-            Cell: 206.427.1555
+            Cell: 1- (206) 669-3748
           </h2>
           <h2 className="mb-5">
             Email: djdivide1@gmail.com
@@ -61,7 +59,10 @@ However I would strongly prefer the cash. */}
             Rates
           </h1>
           <h2 className="mb-5">
-            Thus far I have been charging $400 for a five hour set
+            Thus far I have been charging $450 for a five hour set
+          </h2>
+          <h2 className="mb-5">
+            $800 for a seven hour or longer set.
           </h2>
           <h2 className="mb-5">
             I am open to getting compensated in store credit, however I would strongly prefer cash
