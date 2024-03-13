@@ -21,13 +21,13 @@ export default function emailForm() {
     <form className="contact-form flex flex-col" onSubmit={sendEmail}>
       <input type="hidden" name="contact_number" />
       <label>Name</label>
-      <input type="text" name="from_name" />
+      <input type="text" name="from_name" className="m-2 bg-black border border-white rounded"/>
       <label>Email</label>
-      <input type="email" name="from_email" />
+      <input type="email" name="from_email" className="m-2 bg-black border border-white rounded"/>
       <label>Subject</label>
-      <input type="text" name="subject" />
+      <input type="text" name="subject" className="m-2 bg-black border border-white rounded"/>
       <label>Message</label>
-      <textarea name="message" />
+      <textarea name="message" className="m-2 bg-black border border-white rounded" />
       <input type="submit" value="Send" />
     </form>
   );
