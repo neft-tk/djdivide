@@ -41,7 +41,11 @@ export default function Home() {
           <h2 className="mb-5">
             Email: djdivide1@gmail.com
           </h2>
-          <h2 className="mb-5">Instagram: rickyrakehell</h2>
+          <h2 className="mb-5"> 
+            <a href="https://www.instagram.com/rickyrakehell/" alt="link to instagram" target="blank">
+            Instagram: rickyrakehell
+              </a>
+            </h2>
         </div>
 
         {/* Rates:  Thus far I have been charging $400 for a five hour set...but I hope to make much more as I get better as a DJ.
@@ -67,7 +71,6 @@ However I would strongly prefer the cash. */}
           <h2 className="mb-5">
             I am open to getting compensated in store credit, however I would strongly prefer cash
           </h2>
-          <h2 className="mb-5">Instagram: rickyrakehell</h2>
         </div>
       </div>
     </>
