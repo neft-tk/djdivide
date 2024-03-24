@@ -8,13 +8,14 @@ export default function Home() {
       <div className="flex flex-col bg-black">
         <div className="mt-8 md:p-16 flex flex-col justify-center items-center md:justify-start text-white">
           {/* <h1 className="flex justify-center">Dj Divide</h1> */}
-          <img src={JSLogo1} alt="JSLogo" className="flex max-w-md justify-center" />
+          <img src={JSLogo1} alt="JSLogo" className="flex m-4 lg:max-w-md justify-center" />
         </div>
         <div className="my-8">
           <p>
             Hello world, my name is Jake and I am a DJ based out of Seattle, WA.
             Born and raised in Seattle, I started out as a guitarist and I have been interested in music for as long as I can remember.
-            I have been DJing professionally since 2017 and I absolutely love it!  It is my passion to share music with people.
+            I have been DJing professionally since 2017 and I absolutely love it!  It is my passion to share music with people.</p>
+            <p>
             I own and operate top of the line, industry standard multi-players and a mixer and a quality speaker system.
             I have been lucky enough to DJ a wide variety of venues including cannabis shops, bars and private events.
             I have a working vehicle and I can transport my gear to where you need the music played, so if you live in an area outside of Seattle, that's no problem!

@@ -1,11 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function Nav({ handleLogout, isLoggedIn }) {
 
-  const onLogoutClick = () => {
-    handleLogout();
-  }
+
 
   return (
     <nav class="bg-black px-2 sm:px-4 py-2.5 dark:bg-black fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-yellow-600">
@@ -30,36 +27,6 @@ export default function Nav({ handleLogout, isLoggedIn }) {
                 </h1>
               </a>
             </li>
-            {/* <li>
-              <div>
-                {isLoggedIn ? (
-                  <button onClick={onLogoutClick}>
-                    Logout
-                  </button>
-                ) : (
-                  <>
-                    <Link to="/login">
-                      <h1
-                        className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
-                        aria-current="page"
-                      >
-                        Student Portal
-                      </h1>
-                    </Link>
-                  </>
-                )}
-              </div>
-            </li>
-            <li>
-              <Link to="/policies">
-                <h1
-                  className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
-                  aria-current="page"
-                >
-                  Policies
-                </h1>
-              </Link>
-            </li> */}
             <li>
               <a href="#contact">
                 <h1
