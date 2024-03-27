@@ -5,12 +5,11 @@ import EmailForm from "./EmailForm";
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col bg-black">
+      <div className="flex flex-col justify-center items-center bg-black">
         <div className="mt-8  flex flex-col justify-center items-center md:justify-start text-white lg:mt-0">
-          {/* <h1 className="flex justify-center">Dj Divide</h1> */}
           <img src={JSLogo1} alt="JSLogo" className="flex m-4 mt-20 lg:m-0 lg:max-w-screen-md justify-center" />
         </div>
-        <div className="my-8">
+        <div className="flex flex-col my-8 max-w-sm">
           <p>
             Hello world, my name is Jake and I am a DJ based out of Seattle, WA.
             Born and raised in Seattle, I started out as a guitarist and I have been interested in music for as long as I can remember.
@@ -50,14 +49,6 @@ export default function Home() {
             </h2>
             <EmailForm/>
         </div>
-
-        {/* Rates:  Thus far I have been charging $400 for a five hour set...but I hope to make much more as I get better as a DJ.
-
-I am tempted to offer a 10 hr set for $1200...but I think that most clients will not need that long of a span of time.
-
-Also, if the gig is at a pot shop (I mainly DJed at Kush Klub in Shoreline) I am open to getting compensated in store credit (weed lol).
-
-However I would strongly prefer the cash. */}
 
 
 
