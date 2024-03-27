@@ -6,9 +6,9 @@ export default function Home() {
   return (
     <>
       <div className="flex flex-col bg-black">
-        <div className="mt-8 md:p-16 flex flex-col justify-center items-center md:justify-start text-white">
+        <div className="mt-8  flex flex-col justify-center items-center md:justify-start text-white lg:mt-0">
           {/* <h1 className="flex justify-center">Dj Divide</h1> */}
-          <img src={JSLogo1} alt="JSLogo" className="flex m-4 lg:max-w-md justify-center" />
+          <img src={JSLogo1} alt="JSLogo" className="flex m-4 mt-20 lg:m-0 lg:max-w-screen-md justify-center" />
         </div>
         <div className="my-8">
           <p>
