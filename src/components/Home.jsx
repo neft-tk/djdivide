@@ -36,8 +36,8 @@ export default function Home() {
         </div>
 
         <div className="m-8 flex flex-col items-center justify-center" id="contact">
-          <h1>Contact Me</h1>
-          <h2 className="mb-5">
+          <h1 className="mb-5 lg:text-6xl text-yellow-600">Contact Me</h1>
+          <h2 className="lg:text-6xl mb-5">
             Cell: 1- (206) 669-3748
           </h2>
           <h2 className="mb-5">
@@ -62,7 +62,7 @@ However I would strongly prefer the cash. */}
 
 
         <div className="m-8 flex flex-col items-center justify-center" id="rates">
-          <h1 className="mb-5">
+          <h1 className="mb-5 text-yellow-600">
             Rates
           </h1>
           <h2 className="mb-5">
