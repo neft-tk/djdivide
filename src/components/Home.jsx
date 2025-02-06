@@ -11,9 +11,15 @@ export default function Home() {
 
           <div className="mt-20 scrolling-text-container">
             <div className="scrolling-text-inner"  role="marquee">
+            <div className="scrolling-text">
+                <div className="scrolling-text-item">Update ya'll, I am now DJing every Saturday night 9PM -1AM. </div>
+                <div className="scrolling-text-item">Live near Seattle? Or can travel to Seattle?</div>
+                <div className="scrolling-text-item">Wanna come party? Shoot me an email at djdivide1@gmail.com for details. ➗</div>
+              </div>
               <div className="scrolling-text">
-                <div className="scrolling-text-item">Your First Announcement</div>
-                <div className="scrolling-text-item">Your Second Announcement</div>
+                <div className="scrolling-text-item">Update ya'll, I am now DJing every Saturday night 9PM -1AM. </div>
+                <div className="scrolling-text-item">Live near Seattle? Or can travel to Seattle?</div>
+                <div className="scrolling-text-item">Wanna come party? Shoot me an email at djdivide1@gmail.com for details. ➗</div>
               </div>
             </div>
           </div>
