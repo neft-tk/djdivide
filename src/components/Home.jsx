@@ -5,11 +5,16 @@ import EmailForm from "./EmailForm";
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col justify-center items-center bg-black">
+      <div className="flex flex-col justify-center items-center bg-black" id="home">
         <div className="mt-8  flex flex-col justify-center items-center md:justify-start text-white lg:mt-0">
 
 
-          <div className="mt-20 scrolling-text-container">
+          <div className="flex flex-row items-center">
+          <img src={JSLogo1} alt="JSLogo" className="flex m-2 lg:m-0 lg:max-w-screen-sm justify-center" />
+            <h1>CALL 206.427.1555</h1>
+
+          </div>
+          <div className="scrolling-text-container">
             <div className="scrolling-text-inner"  role="marquee">
             <div className="scrolling-text">
                 <div className="scrolling-text-item">Update ya'll, I am now DJing every Saturday night 9PM -1AM. </div>
@@ -23,7 +28,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <img src={JSLogo1} alt="JSLogo" className="flex m-4 mt-20 lg:m-0 lg:max-w-screen-md justify-center" />
         </div>
         <div className="flex flex-col my-8 max-w-sm">
           <p>
@@ -53,7 +57,7 @@ export default function Home() {
         <div className="m-8 flex flex-col items-center justify-center" id="contact">
           <h1 className="mb-5 lg:text-6xl text-yellow-600">Contact Me</h1>
           <h2 className="lg:text-6xl mb-5">
-            Cell: 1- (206) 669-3748
+            Cell: 1- (206) 427-1555
           </h2>
           <h2 className="mb-5">
             Email: djdivide1@gmail.com
