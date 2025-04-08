@@ -8,13 +8,7 @@ export default function Home() {
       <div className="flex flex-col justify-center items-center bg-black" id="home">
         <div className="mt-8  flex flex-col justify-center items-center md:justify-start text-white lg:mt-0">
 
-
-          <div className="flex flex-row items-center">
-          <img src={JSLogo1} alt="JSLogo" className="flex m-2 lg:m-0 lg:max-w-screen-sm justify-center" />
-            <h1>CALL 206.427.1555</h1>
-
-          </div>
-          <div className="scrolling-text-container">
+          <div className="mt-20 scrolling-text-container">
             <div className="scrolling-text-inner"  role="marquee">
             <div className="scrolling-text">
                 <div className="scrolling-text-item">Update ya'll, I am now DJing every Saturday night 9PM -1AM. </div>
@@ -27,6 +21,12 @@ export default function Home() {
                 <div className="scrolling-text-item">Wanna come party? Shoot me an email at djdivide1@gmail.com for details. ➗</div>
               </div>
             </div>
+          </div>
+
+          <div className="flex flex-row items-center">
+          <img src={JSLogo1} alt="JSLogo" className="flex m-2 lg:m-0 lg:max-w-sm justify-center" />
+            <h1>CALL 206.427.1555</h1>
+
           </div>
         </div>
         <div className="flex flex-col my-8 max-w-sm">
