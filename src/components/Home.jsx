@@ -1,6 +1,7 @@
 import React from "react";
 import JSLogo1 from "../assets/images/JSLogo1.jpg";
-import EmailForm from "./EmailForm";
+import Contact from "./Contact";
+import Pics from "./Pics";
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
           </div> */}
 
           <div className="flex flex-row items-center">
-          <img src={JSLogo1} alt="JSLogo" className="flex m-2 lg:m-0 lg:max-w-4xl justify-center" />
+          <img src={JSLogo1} alt="JSLogo" className="flex p-2 mt-6 lg:m-0 lg:max-w-4xl justify-center" />
           </div>
             <h1 className="text-yellow-600">CALL 206.427.1555</h1>
 
@@ -55,7 +56,8 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="m-8 flex flex-col items-center justify-center" id="contact">
+<Contact/>
+        {/* <div className="m-8 flex flex-col items-center justify-center" id="contact">
           <h1 className="mb-5 lg:text-6xl text-yellow-600">Contact Me</h1>
           <h2 className="lg:text-6xl mb-5">
             Cell: 1- (206) 427-1555
@@ -69,7 +71,7 @@ export default function Home() {
             </a>
           </h2>
           <EmailForm />
-        </div>
+        </div> */}
 
 
 
@@ -90,6 +92,7 @@ export default function Home() {
             I am open to getting compensated in store credit, however I would strongly prefer cash
           </h2>
         </div>
+        <Pics/>
       </div>
     </>
   );

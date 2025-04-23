@@ -1,4 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Home from "./Home";
+
 
 export default function Nav({ handleLogout, isLoggedIn }) {
 
@@ -7,12 +10,15 @@ export default function Nav({ handleLogout, isLoggedIn }) {
   return (
     <nav class="bg-black px-2 sm:px-4 md:py-2.5 lg:py-2.5 dark:bg-black fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-yellow-600">
       <div class="container flex flex-row items-center justify-between mx-none">
+{/* <Link to='/home'> */}
         <a href="#home" class="flex items-center">
           <span className="self-center text-xl text-yellow-600 font-semibold whitespace-nowrap dark:text-yellow-600s">
             DJ Divide
           </span>
           
         </a>
+{/* </Link> */}
+
         <div
           class="flex flex-col border border-black items-center justify-between w-full md:flex md:w-auto md:order-1"
           id="navbar-sticky"
@@ -29,18 +35,20 @@ export default function Nav({ handleLogout, isLoggedIn }) {
               </a>
             </li> */}
             <li>
-            <h1 className="text-yellow-600">CALL 206.427.1555</h1>
+            <h3 className="text-yellow-600">CALL 206.427.1555</h3>
 
             </li>
             <li>
-              <a href="#contact">
+
+                         <a href="#contact">
                 <h1
                   className="block py-2 pl-3 pr-4 text-yellow-600 rounded md:bg-transparent md:text-yellow-600 md:p-0 dark:text-yellow-600"
                   aria-current="page"
-                >
+                  >
                   Contact Me
                 </h1>
               </a>
+ 
             </li>
             <li>
               <a href="#rates">
@@ -51,6 +59,20 @@ export default function Nav({ handleLogout, isLoggedIn }) {
                   Rates
                 </h1>
               </a>
+            </li>
+
+                <li>
+              {/* <Link to="/Pics"> */}
+              <a href="#pics">
+                <h1
+                  className="block py-2 pl-3 pr-4 text-yellow-600 rounded md:bg-transparent md:text-yellow-600 md:p-0 dark:text-yellow-600"
+                  aria-current="page"
+                  >
+                  Pics
+                </h1>
+                    </a>
+                  
+              {/* </Link> */}
             </li>
           </ul>
         </div>

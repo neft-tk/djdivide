@@ -7,7 +7,7 @@ import {
   Routes,
   Route,
 } from 'react-router-dom';
-import Policies from './components/pages/Policies';
+import Pics from './components/Pics';
 import Home from "./components/Home";
 import Contact from "./components/pages/Contact";
 import Login from './components/pages/Login';
@@ -76,7 +76,7 @@ function App() {
         <Route path="/" element={<Home/>}/>
         <Route path="/home" element={<Home/>}/>
         <Route path="/login" element={<Login handleLogin={handleLogin} isValidLogin={isValidLogin} isLoggedIn={isLoggedIn} userNotes={userNotes}/>}/>
-        <Route path="/policies" element={<Policies/>}/>
+        <Route path="/Pics" element={<Pics/>}/>
         <Route path="/contact" element={<Contact/>}/>
       </Routes>
 
