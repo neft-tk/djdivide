@@ -8,7 +8,7 @@ export default function Home() {
       <div className="flex flex-col justify-center items-center bg-black" id="home">
         <div className="mt-8  flex flex-col justify-center items-center md:justify-start text-white lg:mt-0">
 
-          <div className="mt-20 scrolling-text-container">
+          {/* <div className="mt-20 scrolling-text-container">
             <div className="scrolling-text-inner"  role="marquee">
             <div className="scrolling-text">
                 <div className="scrolling-text-item">Update ya'll, I am now DJing every Saturday night 9PM -1AM. </div>
@@ -21,14 +21,15 @@ export default function Home() {
                 <div className="scrolling-text-item">Wanna come party? Shoot me an email at djdivide1@gmail.com for details. ➗</div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="flex flex-row items-center">
-          <img src={JSLogo1} alt="JSLogo" className="flex m-2 lg:m-0 lg:max-w-sm justify-center" />
-            <h1>CALL 206.427.1555</h1>
-
+          <img src={JSLogo1} alt="JSLogo" className="flex m-2 lg:m-0 lg:max-w-4xl justify-center" />
           </div>
+            <h1 className="text-yellow-600">CALL 206.427.1555</h1>
+
         </div>
+        <h2>I specialize in bars and private events</h2>
         <div className="flex flex-col my-8 max-w-sm">
           <p>
             Hello world, my name is Jake and I am a DJ based out of Seattle, WA.
@@ -77,10 +78,13 @@ export default function Home() {
             Rates
           </h1>
           <h2 className="mb-5">
-            Thus far I have been charging $450 for a five hour set
+            Thus far I have been charging $300 for a four hour set (this includes set-up and tear down).
           </h2>
           <h2 className="mb-5">
-            $800 for a seven hour or longer set.
+            A five hour set I would charge $350.
+          </h2>
+          <h2 className="mb-5">
+            Anything over seven hours would be $800.
           </h2>
           <h2 className="mb-5">
             I am open to getting compensated in store credit, however I would strongly prefer cash

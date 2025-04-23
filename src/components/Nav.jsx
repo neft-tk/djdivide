@@ -11,6 +11,7 @@ export default function Nav({ handleLogout, isLoggedIn }) {
           <span className="self-center text-xl text-yellow-600 font-semibold whitespace-nowrap dark:text-yellow-600s">
             DJ Divide
           </span>
+          
         </a>
         <div
           class="flex flex-col border border-black items-center justify-between w-full md:flex md:w-auto md:order-1"
@@ -27,6 +28,10 @@ export default function Nav({ handleLogout, isLoggedIn }) {
                 </h1>
               </a>
             </li> */}
+            <li>
+            <h1 className="text-yellow-600">CALL 206.427.1555</h1>
+
+            </li>
             <li>
               <a href="#contact">
                 <h1
