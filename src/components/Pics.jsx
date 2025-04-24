@@ -11,13 +11,22 @@ export default function Pics() {
     return (
         <>
 <h1 id="pics">Pics</h1>
+<div className="md:flex md:flex-row">
+
+<div>
+
 <img src={JS1} className="p-8 max-w-md"></img>
 <img src={JS2} className="p-8 max-w-md"></img>
 <img src={JS3} className="p-8 max-w-md"></img>
 <img src={JS4} className="p-8 max-w-md"></img>
+</div>
+
+<div>
 <img src={JS5} className="p-8 max-w-md"></img>
 <img src={JS6} className="p-8 max-w-md"></img>
 <img src={JS7} className="p-8 max-w-md"></img>
+</div>
+</div>
         </>
     );
 }

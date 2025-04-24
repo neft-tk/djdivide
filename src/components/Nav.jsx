@@ -35,7 +35,7 @@ export default function Nav({ handleLogout, isLoggedIn }) {
               </a>
             </li> */}
             <li>
-            <h3 className="text-yellow-600">CALL 206.427.1555</h3>
+            <h2 className="text-yellow-600">CALL 206.427.1555</h2>
 
             </li>
             <li>
